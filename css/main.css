@@ -7,7 +7,7 @@
 }
 
 .board {
-    /*margin: auto;*/
+    position: relative;
 }
 
 .row {
@@ -19,4 +19,15 @@
     height: 50px;
     border: black solid 3px;
     margin: -1.5px;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 100;
+    top: 0;
+    left: 0;
 }
