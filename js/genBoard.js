@@ -42,7 +42,7 @@
         for (let j = 1; j < arr[i].length - 1; j++) {
             if (i % 2 === 1 && j % 2 === 1) {
                 arr[i][j].style.backgroundColor = 'black';
-                arr[i][j].style.id = 'brick';
+                arr[i][j].id = 'brick';
             }
         }
     }
