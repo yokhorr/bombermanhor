@@ -51,7 +51,7 @@
             alert('death');
         }
         activeCell.id = color;
-        activeCell.style.backgroundColor = color;2
+        activeCell.style.backgroundColor = color;
     }
 
     const step = 5;
